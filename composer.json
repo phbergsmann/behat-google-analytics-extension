@@ -1,0 +1,23 @@
+{
+    "name": "phbergsmann/behat-google-analytics-extension",
+    "require": {
+        "behat/behat": "2.4.x",
+        "behat/mink": "1.4.x",
+        "behat/mink-extension": "*",
+        "behat/mink-selenium2-driver": "*",
+		"google/apiclient": "1.0.4-beta"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Philipp Bergsmann",
+            "email": "p.bergsmann@opendo.at"
+        }
+    ],
+    "minimum-stability": "dev",
+	"autoload": {
+		"psr-0": {
+			"PhBergsmann\\BehatGoogleAnalyticsExtension": "src/"
+		}
+	}
+}
